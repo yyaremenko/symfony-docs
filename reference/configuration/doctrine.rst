@@ -10,6 +10,9 @@ The DoctrineBundle integrates both the :doc:`DBAL </doctrine/dbal>` and
 options are configured under the ``doctrine`` key in your application
 configuration.
 
+For all configuration options available, please see 
+`Doctrine Bundle Configruartion reference`_.
+
 .. code-block:: terminal
 
     # displays the default config values defined by Symfony
@@ -449,4 +452,5 @@ If the ``dir`` configuration is set and the ``is_bundle`` configuration
 is ``true``, the DoctrineBundle will prefix the ``dir`` configuration with
 the path of the bundle.
 
+.. _Doctrine Bundle Configruartion reference: https://www.doctrine-project.org/projects/doctrine-bundle/en/2.2/configuration.html
 .. _DBAL documentation: https://www.doctrine-project.org/projects/doctrine-dbal/en/current/reference/configuration.html
